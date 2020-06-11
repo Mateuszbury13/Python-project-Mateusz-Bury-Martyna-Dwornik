@@ -108,3 +108,34 @@ while t<1:
 
     #Sie
     print("Sie",temp2)
+    
+     # s,ss,z,B = ss
+
+  elif slowo[-3]=='s' or slowo[-3]=='z' or slowo[-3]=='s' and slowo[-4]=='s' :
+    #print("5 opcja")
+     #ich
+    slowo = slowo[0:len(slowo)-2]
+    slowo = slowo + "e"
+    print("Ich",slowo)
+
+    # du
+    slowo = slowo[0:len(slowo)-1]
+    slowo = slowo + "t"
+    print("Du",slowo)
+
+    # er/sie/es
+    slowo = slowo[0:len(slowo)-1]
+    slowo = slowo + "t"
+    print("Er / sie / es",slowo)
+
+    #wir
+    print("Wir",temp2)
+
+    # Ihr
+    slowo = slowo[0:len(slowo)-1]
+    temp = "t"
+    ihr = slowo + temp
+    print("Ihr",ihr)
+
+    #Sie
+    print("Sie",temp2)
