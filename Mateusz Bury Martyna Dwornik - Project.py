@@ -139,3 +139,34 @@ while t<1:
 
     #Sie
     print("Sie",temp2)
+    
+    
+  #odmiana regularna pozostałe przypadki:
+
+  else:
+    #print("1 opcja")
+    #ich
+    slowo = slowo[:-1]
+    print("Ich",slowo)
+
+    # du
+    slowo = slowo[0:len(slowo)-1]
+    slowo = slowo + "st"
+    print("Du",slowo)
+
+    # er/sie/es
+    slowo = slowo[0:len(slowo)-2]
+    slowo = slowo + "t"
+    print("Er / sie / es",slowo)
+
+    #wir
+    print("Wir",temp2)
+
+    # Ihr
+    slowo = slowo[0:len(slowo)-1]
+    temp = "t"
+    ihr = slowo + temp
+    print("Ihr",ihr)
+
+    #Sie
+    print("Sie",temp2)
